@@ -14,7 +14,7 @@ public class Kriptonita extends GemaDecorador {
 
   @Override
   public String getDescripcion() {
-    return jugador.getDescripcion() + ", " + "KRIPTONITA";
+    return jugador.getDescripcion() + ", " + "KRIPTONITA -" + valorARestar;
   }
 
   @Override
